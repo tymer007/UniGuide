@@ -7,6 +7,7 @@ module.exports = {
         uniWhite: "#D4F4FB",
         uniLight: "#4EB3D3",
         uniBlue: "#0754EB",
+        uniDark: "#0A344B",
       },
     },
   },
