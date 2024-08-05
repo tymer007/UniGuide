@@ -147,10 +147,12 @@ function Home() {
               </h1>
             </div>
             <div className="text-lg sm:text-2xl pb-10">your online campus navigation</div>
-            <button className="flex mx-auto p-2 px-4 gap-2 justify-center bg-uniLight my-auto rounded-3xl hover:bg-uniDark">
-              <div className="font-medium">Explore Campus</div>
-              <CircleArrowRight />
-            </button>
+            <Link to="/map">
+              <button className="flex mx-auto p-2 px-4 gap-2 justify-center bg-uniLight my-auto rounded-3xl hover:bg-uniDark">
+                <div className="font-medium">Explore Campus</div>
+                <CircleArrowRight />
+              </button>
+            </Link>
           </div>
         </div>
       </header>
